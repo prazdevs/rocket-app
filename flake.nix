@@ -27,7 +27,9 @@
         {
           default = pkgs.mkShell {
             packages = with pkgs; [
-              # pkgs
+              cargo
+              rustc
+              rustfmt
             ];
           };
         }

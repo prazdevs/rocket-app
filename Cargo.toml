@@ -1,0 +1,11 @@
+[package]
+name = "rocket-app"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rocket = "0.5.1"
+
+[dependencies.rocket_dyn_templates]
+version = "0.1.0"
+features = ["handlebars"]
